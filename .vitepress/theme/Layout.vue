@@ -5,7 +5,7 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 
-const { isDark } = useData()
+const { isDark,lang } = useData()
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
@@ -38,6 +38,12 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
     }
   )
+
+  watchEffect(() => {
+  if (inBrowser) {
+    document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
+  }
+})
 })
 </script>
 
