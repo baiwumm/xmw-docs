@@ -11,8 +11,8 @@ hero:
       text: My Blog
       link: https://baiwumm.com/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: https://github.com/baiwumm
   image:
     src: /logo.svg
     alt: Logo

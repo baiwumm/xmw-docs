@@ -8,11 +8,11 @@ hero:
   tagline: 后台模板、组件封装、面试题、算法、开发技巧、工具合集
   actions:
     - theme: brand
-      text: 博客
+      text: 访问博客
       link: https://baiwumm.com/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: https://github.com/baiwumm
   image:
     src: /logo.svg
     alt: Logo
@@ -46,7 +46,7 @@ features:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(45deg, var(--main-color-1) 20%, var(--main-color-4));
 
-  --vp-home-hero-image-background-image: linear-gradient(135deg, var(--main-color-1) 50%,var(--main-color-4) 20%);
+  --vp-home-hero-image-background-image: linear-gradient(45deg, var(--main-color-1) 65%,var(--main-color-4) 35%);
   --vp-home-hero-image-filter: blur(44px);
 
   --vp-button-brand-bg:var(--main-color-4);

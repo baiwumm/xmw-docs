@@ -6,6 +6,19 @@ export const en = defineConfig({
 
   themeConfig: {
 
+    nav: [
+      { text: 'LeetCode algorithm', link: '/en/algorithm/sum-of-two-numbers' }
+    ],
+    sidebar: [
+      {
+        text: 'easy',
+        collapsed: false,
+        items: [
+          { text: 'Sum of two numbers', link: '/en/algorithm/sum-of-two-numbers' },
+        ]
+      }
+    ],
+
     docFooter: {
       prev: 'Previous',
       next: 'Next'

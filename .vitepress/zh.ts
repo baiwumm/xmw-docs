@@ -6,6 +6,19 @@ export const zh = defineConfig({
 
   themeConfig: {
 
+    nav: [
+      { text: 'LeetCode算法', link: '/algorithm/sum-of-two-numbers' }
+    ],
+    sidebar: [
+      {
+        text: '简单',
+        collapsed: false,
+        items: [
+          { text: '两数之和', link: '/algorithm/sum-of-two-numbers' },
+        ]
+      }
+    ],
+
     docFooter: {
       prev: '上一页',
       next: '下一页'
