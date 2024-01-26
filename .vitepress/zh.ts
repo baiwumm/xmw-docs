@@ -2,10 +2,13 @@ import { defineConfig } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-Hans',
+  titleTemplate: '白雾茫茫丶',
   description: "个人开发项目记录文档，后台模板、组件封装、面试题、前端开发小技巧",
-
   themeConfig: {
-
+    // 页脚版权
+    footer: {
+      copyright: `版权所有 © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">白雾茫茫丶</a>`
+    },
     nav: [
       { text: 'LeetCode算法', link: '/algorithm/sum-of-two-numbers' }
     ],

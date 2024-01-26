@@ -2,10 +2,14 @@ import { defineConfig } from 'vitepress'
 
 export const en = defineConfig({
   lang: 'en-US',
+  titleTemplate: 'baiwumm',
   description: "Personal development project documentation, background templates, component packaging, interview questions, front-end development tips",
 
   themeConfig: {
-
+    // 页脚版权
+    footer: {
+      copyright: `Copyright © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">baiwumm</a>`
+    },
     nav: [
       { text: 'LeetCode algorithm', link: '/en/algorithm/sum-of-two-numbers' }
     ],
