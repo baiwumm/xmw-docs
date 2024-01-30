@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: XmwDocs
-  text: 个人开发项目记录文档
+  text: 前端开发学习笔记
   tagline: 后台模板、组件封装、面试题、算法、开发技巧、工具合集
   actions:
     - theme: brand

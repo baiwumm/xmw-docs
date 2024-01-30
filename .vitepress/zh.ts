@@ -19,6 +19,13 @@ export const zh = defineConfig({
         items: [
           { text: '两数之和', link: '/algorithm/sum-of-two-numbers' },
         ]
+      },
+      {
+        text: '中等',
+        collapsed: false,
+        items: [
+          { text: '整数反转', link: '/algorithm/integer-inversion' },
+        ]
       }
     ],
 

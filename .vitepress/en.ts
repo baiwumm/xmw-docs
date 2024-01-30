@@ -20,6 +20,13 @@ export const en = defineConfig({
         items: [
           { text: 'Sum of two numbers', link: '/en/algorithm/sum-of-two-numbers' },
         ]
+      },
+      {
+        text: 'intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Integer inversion', link: '/algorithm/integer-inversion' },
+        ]
       }
     ],
 

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: XmwDocs
-  text: Personal development project documentation
+  text: Front-end development study notes
   tagline: Back-end templates, component packages, interview questions, algorithms, development tips, tools collection
   actions:
     - theme: brand

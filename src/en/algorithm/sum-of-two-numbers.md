@@ -33,7 +33,6 @@ output：[0,1]
 :::
 
 ## Problem solving
-This problem is relatively simple, we can use the 'Map object' to save the value and index of each traversal, and then determine the difference with the 'target' :
 ```js
 /**
  * @param {number[]} nums

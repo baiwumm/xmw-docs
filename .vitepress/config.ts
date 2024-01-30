@@ -8,6 +8,7 @@ export default defineConfig({
   cleanUrls: true, // 生成简洁的 URL
   lastUpdated: true, // 最后更新时间
   srcDir: './src', // markdown 页面的目录，相对于项目根目录
+  outDir: './dist', // 站点的构建输出位置
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],// 网站 icon
     // 谷歌分析
