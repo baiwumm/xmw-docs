@@ -17,7 +17,7 @@ export const zh = defineConfig({
           { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
         ]
       },
-      { text: 'LeetCode算法', link: '/algorithm/sum-of-two-numbers' }
+      { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' }
     ],
     sidebar: {
       '/interview-handbook/javascript': [
@@ -43,14 +43,15 @@ export const zh = defineConfig({
           text: '简单',
           collapsed: false,
           items: [
-            { text: '两数之和', link: '/algorithm/sum-of-two-numbers' },
+            { text: '两数之和', link: '/algorithm/ease/sum-of-two-numbers' },
+            { text: '回文数', link: '/algorithm/ease/palindromic-number' },
           ]
         },
         {
           text: '中等',
           collapsed: false,
           items: [
-            { text: '整数反转', link: '/algorithm/integer-inversion' },
+            { text: '整数反转', link: '/algorithm/intermediate/integer-inversion' },
           ]
         }
       ],

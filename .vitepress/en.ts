@@ -18,7 +18,7 @@ export const en = defineConfig({
           { text: 'Vue', link: '/en/interview-handbook/vue/mvvm' },
         ]
       },
-      { text: 'LeetCode algorithm', link: '/en/algorithm/sum-of-two-numbers' }
+      { text: 'LeetCode algorithm', link: '/en/algorithm/ease/sum-of-two-numbers' }
     ],
     sidebar: {
       '/en/interview-handbook/javascript': [
@@ -44,14 +44,15 @@ export const en = defineConfig({
           text: 'easy',
           collapsed: false,
           items: [
-            { text: 'Sum of two numbers', link: '/en/algorithm/sum-of-two-numbers' },
+            { text: 'Sum of two numbers', link: '/en/algorithm/ease/sum-of-two-numbers' },
+            { text: 'Palindromic number', link: '/en/algorithm/ease/palindromic-number' },
           ]
         },
         {
           text: 'intermediate',
           collapsed: false,
           items: [
-            { text: 'Integer inversion', link: '/en/algorithm/integer-inversion' },
+            { text: 'Integer inversion', link: '/en/algorithm/intermediate/integer-inversion' },
           ]
         }
       ],
