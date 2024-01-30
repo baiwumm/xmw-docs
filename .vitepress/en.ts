@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export const en = defineConfig({
   lang: 'en-US',
   titleTemplate: 'baiwumm',
-  description: "Personal development project documentation, background templates, component packaging, interview questions, front-end development tips",
+  description: "Front-end development learning notes, back-end templates, component packaging, interview handbook, data algorithms, development skills, tools collection",
 
   themeConfig: {
     // 页脚版权
@@ -11,24 +11,51 @@ export const en = defineConfig({
       copyright: `Copyright © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">baiwumm</a>`
     },
     nav: [
-      { text: 'LeetCode algorithm', link: '/en/algorithm/sum-of-two-numbers' }
-    ],
-    sidebar: [
       {
-        text: 'easy',
-        collapsed: false,
+        text: 'Interview handbook',
         items: [
-          { text: 'Sum of two numbers', link: '/en/algorithm/sum-of-two-numbers' },
+          { text: 'Javascript', link: '/en/interview-handbook/javascript/data-type' },
+          { text: 'Vue', link: '/en/interview-handbook/vue/mvvm' },
         ]
       },
-      {
-        text: 'intermediate',
-        collapsed: false,
-        items: [
-          { text: 'Integer inversion', link: '/algorithm/integer-inversion' },
-        ]
-      }
+      { text: 'LeetCode algorithm', link: '/en/algorithm/sum-of-two-numbers' }
     ],
+    sidebar: {
+      '/en/interview-handbook/javascript': [
+        {
+          text: 'Basic chapter',
+          collapsed: false,
+          items: [
+            { text: 'Data type', link: '/en/interview-handbook/javascript/data-type' },
+          ]
+        },
+      ],
+      '/en/interview-handbook/vue': [
+        {
+          text: 'Basic chapter',
+          collapsed: false,
+          items: [
+            { text: 'Understanding of MVVM', link: '/en/interview-handbook/vue/mvvm' },
+          ]
+        },
+      ],
+      '/en/algorithm/': [
+        {
+          text: 'easy',
+          collapsed: false,
+          items: [
+            { text: 'Sum of two numbers', link: '/en/algorithm/sum-of-two-numbers' },
+          ]
+        },
+        {
+          text: 'intermediate',
+          collapsed: false,
+          items: [
+            { text: 'Integer inversion', link: '/en/algorithm/integer-inversion' },
+          ]
+        }
+      ],
+    },
 
     docFooter: {
       prev: 'Previous',

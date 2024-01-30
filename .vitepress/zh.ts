@@ -3,31 +3,58 @@ import { defineConfig } from 'vitepress'
 export const zh = defineConfig({
   lang: 'zh-Hans',
   titleTemplate: '白雾茫茫丶',
-  description: "个人开发项目记录文档，后台模板、组件封装、面试题、前端开发小技巧",
+  description: "前端开发学习笔记，后台模板、组件封装、面试宝典、数据算法、开发技巧、工具合集",
   themeConfig: {
     // 页脚版权
     footer: {
       copyright: `版权所有 © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">白雾茫茫丶</a>`
     },
     nav: [
-      { text: 'LeetCode算法', link: '/algorithm/sum-of-two-numbers' }
-    ],
-    sidebar: [
       {
-        text: '简单',
-        collapsed: false,
+        text: '面试宝典',
         items: [
-          { text: '两数之和', link: '/algorithm/sum-of-two-numbers' },
+          { text: 'Javascript', link: '/interview-handbook/javascript/data-type' },
+          { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
         ]
       },
-      {
-        text: '中等',
-        collapsed: false,
-        items: [
-          { text: '整数反转', link: '/algorithm/integer-inversion' },
-        ]
-      }
+      { text: 'LeetCode算法', link: '/algorithm/sum-of-two-numbers' }
     ],
+    sidebar: {
+      '/interview-handbook/javascript': [
+        {
+          text: '基础篇',
+          collapsed: false,
+          items: [
+            { text: '数据类型', link: '/interview-handbook/javascript/data-type' },
+          ]
+        },
+      ],
+      '/interview-handbook/vue': [
+        {
+          text: '基础篇',
+          collapsed: false,
+          items: [
+            { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
+          ]
+        },
+      ],
+      '/algorithm/': [
+        {
+          text: '简单',
+          collapsed: false,
+          items: [
+            { text: '两数之和', link: '/algorithm/sum-of-two-numbers' },
+          ]
+        },
+        {
+          text: '中等',
+          collapsed: false,
+          items: [
+            { text: '整数反转', link: '/algorithm/integer-inversion' },
+          ]
+        }
+      ],
+    },
 
     docFooter: {
       prev: '上一页',
