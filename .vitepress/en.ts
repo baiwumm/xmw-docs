@@ -59,6 +59,7 @@ export const en = defineConfig({
       ],
       '/en/daily-question/': [
         { text: 'Question 1：Why write a key in a list component when writing a React/Vue project, and what does it do?', link: '/en/daily-question/1' },
+        { text: `Question 2：['1', '2', '3'].map(parseInt) what & why ?`, link: '/en/daily-question/2' },
       ],
     },
 
@@ -108,45 +109,4 @@ export const enSearch: DefaultTheme.LocalSearchOptions['locales'] = {
       }
     }
   }
-  // en: {
-  //   placeholder: 'Search document',
-  //   translations: {
-  //     button: {
-  //       buttonText: 'Search document',
-  //       buttonAriaLabel: 'Search document'
-  //     },
-  //     modal: {
-  //       searchBox: {
-  //         resetButtonTitle: 'Clear query criteria',
-  //         resetButtonAriaLabel: 'Clear query criteria',
-  //         cancelButtonText: 'Cancel',
-  //         cancelButtonAriaLabel: 'Cancel'
-  //       },
-  //       startScreen: {
-  //         recentSearchesTitle: 'Search history',
-  //         noRecentSearchesText: 'No search history',
-  //         saveRecentSearchButtonTitle: 'Save to search history',
-  //         removeRecentSearchButtonTitle: 'Removed from search history',
-  //         favoriteSearchesTitle: 'Collect',
-  //         removeFavoriteSearchButtonTitle: 'Remove from collection'
-  //       },
-  //       errorScreen: {
-  //         titleText: 'No result available',
-  //         helpText: 'You may want to check your Internet connection'
-  //       },
-  //       footer: {
-  //         selectText: 'Select',
-  //         navigateText: 'Toggle',
-  //         closeText: 'Off',
-  //         searchByText: 'Search provider'
-  //       },
-  //       noResultsScreen: {
-  //         noResultsText: 'No results could be found',
-  //         suggestedQueryText: 'You can try querying',
-  //         reportMissingResultsText: 'Do you think this query should yield results?',
-  //         reportMissingResultsLinkText: 'Click feedback'
-  //       }
-  //     }
-  //   }
-  // }
 }
