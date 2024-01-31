@@ -66,13 +66,14 @@ export default defineConfig({
     footer: {
       copyright: 'Copyright © 2023-2024 | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">baiwumm</a>'
     },
-    // algolia 搜索
+    // 本地搜索
     search: {
-      provider: 'algolia',
+      // provider: 'algolia',
+      provider: 'local',
       options: {
-        appId: 'LB0GO1G90U',
-        apiKey: 'd1bcf845c05db30141f080ecec4ac05a',
-        indexName: 'baiwummdocs',
+        // appId: 'LB0GO1G90U',
+        // apiKey: 'd1bcf845c05db30141f080ecec4ac05a',
+        // indexName: 'baiwummdocs',
         locales: {
           ...zhSearch,
           ...enSearch

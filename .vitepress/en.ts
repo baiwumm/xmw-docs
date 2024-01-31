@@ -91,46 +91,62 @@ export const en = defineConfig({
 /**
  * @description: algolia 搜索
  */
-export const enSearch: DefaultTheme.AlgoliaSearchOptions['locales'] = {
+export const enSearch: DefaultTheme.LocalSearchOptions['locales'] = {
   en: {
-    placeholder: 'Search document',
     translations: {
       button: {
         buttonText: 'Search document',
         buttonAriaLabel: 'Search document'
       },
       modal: {
-        searchBox: {
-          resetButtonTitle: 'Clear query criteria',
-          resetButtonAriaLabel: 'Clear query criteria',
-          cancelButtonText: 'Cancel',
-          cancelButtonAriaLabel: 'Cancel'
-        },
-        startScreen: {
-          recentSearchesTitle: 'Search history',
-          noRecentSearchesText: 'No search history',
-          saveRecentSearchButtonTitle: 'Save to search history',
-          removeRecentSearchButtonTitle: 'Removed from search history',
-          favoriteSearchesTitle: 'Collect',
-          removeFavoriteSearchButtonTitle: 'Remove from collection'
-        },
-        errorScreen: {
-          titleText: 'No result available',
-          helpText: 'You may want to check your Internet connection'
-        },
+        noResultsText: 'No results could be found',
+        resetButtonTitle: 'Clear query criteria',
         footer: {
           selectText: 'Select',
-          navigateText: 'Toggle',
-          closeText: 'Off',
-          searchByText: 'Search provider'
-        },
-        noResultsScreen: {
-          noResultsText: 'No results could be found',
-          suggestedQueryText: 'You can try querying',
-          reportMissingResultsText: 'Do you think this query should yield results?',
-          reportMissingResultsLinkText: 'Click feedback'
+          navigateText: 'Toggle'
         }
       }
     }
   }
+  // en: {
+  //   placeholder: 'Search document',
+  //   translations: {
+  //     button: {
+  //       buttonText: 'Search document',
+  //       buttonAriaLabel: 'Search document'
+  //     },
+  //     modal: {
+  //       searchBox: {
+  //         resetButtonTitle: 'Clear query criteria',
+  //         resetButtonAriaLabel: 'Clear query criteria',
+  //         cancelButtonText: 'Cancel',
+  //         cancelButtonAriaLabel: 'Cancel'
+  //       },
+  //       startScreen: {
+  //         recentSearchesTitle: 'Search history',
+  //         noRecentSearchesText: 'No search history',
+  //         saveRecentSearchButtonTitle: 'Save to search history',
+  //         removeRecentSearchButtonTitle: 'Removed from search history',
+  //         favoriteSearchesTitle: 'Collect',
+  //         removeFavoriteSearchButtonTitle: 'Remove from collection'
+  //       },
+  //       errorScreen: {
+  //         titleText: 'No result available',
+  //         helpText: 'You may want to check your Internet connection'
+  //       },
+  //       footer: {
+  //         selectText: 'Select',
+  //         navigateText: 'Toggle',
+  //         closeText: 'Off',
+  //         searchByText: 'Search provider'
+  //       },
+  //       noResultsScreen: {
+  //         noResultsText: 'No results could be found',
+  //         suggestedQueryText: 'You can try querying',
+  //         reportMissingResultsText: 'Do you think this query should yield results?',
+  //         reportMissingResultsLinkText: 'Click feedback'
+  //       }
+  //     }
+  //   }
+  // }
 }
