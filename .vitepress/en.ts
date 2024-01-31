@@ -16,6 +16,7 @@ export const en = defineConfig({
         items: [
           { text: 'Javascript', link: '/en/interview-handbook/javascript/data-type' },
           { text: 'Vue', link: '/en/interview-handbook/vue/mvvm' },
+          { text: 'React', link: '/en/interview-handbook/react/life-cycle' },
         ]
       },
       { text: 'LeetCode algorithm', link: '/en/algorithm/ease/sum-of-two-numbers' },
@@ -37,6 +38,15 @@ export const en = defineConfig({
           collapsed: false,
           items: [
             { text: 'Understanding of MVVM', link: '/en/interview-handbook/vue/mvvm' },
+          ]
+        },
+      ],
+      '/en/interview-handbook/react': [
+        {
+          text: 'Basic chapter',
+          collapsed: false,
+          items: [
+            { text: 'Class component life cycle', link: '/en/interview-handbook/react/life-cycle' },
           ]
         },
       ],

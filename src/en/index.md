@@ -5,7 +5,7 @@ layout: home
 hero:
   name: XmwDocs
   text: Front-end development study notes
-  tagline: Background template, component package, interview handbook, data algorithm, development skills, tool collection
+  tagline: Interview handbook, LeetCode algorithm, one question a day
   actions:
     - theme: brand
       text: My Blog

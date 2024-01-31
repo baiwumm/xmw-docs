@@ -5,7 +5,7 @@ layout: home
 hero:
   name: XmwDocs
   text: 前端开发学习笔记
-  tagline: 后台模板、组件封装、面试宝典、数据算法、开发技巧、工具合集
+  tagline: 面试宝典、LeetCode算法、每日壹题
   actions:
     - theme: brand
       text: 访问博客

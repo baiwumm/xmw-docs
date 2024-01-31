@@ -15,6 +15,7 @@ export const zh = defineConfig({
         items: [
           { text: 'Javascript', link: '/interview-handbook/javascript/data-type' },
           { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
+          { text: 'React', link: '/interview-handbook/react/life-cycle' },
         ]
       },
       { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' },
@@ -36,6 +37,15 @@ export const zh = defineConfig({
           collapsed: false,
           items: [
             { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
+          ]
+        },
+      ],
+      '/interview-handbook/react': [
+        {
+          text: '基础篇',
+          collapsed: false,
+          items: [
+            { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
           ]
         },
       ],
