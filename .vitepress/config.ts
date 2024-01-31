@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { zh } from './zh'
-import { en } from './en'
+import { zh, zhSearch } from './zh'
+import { en, enSearch } from './en'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -65,6 +65,19 @@ export default defineConfig({
     // 页脚版权
     footer: {
       copyright: 'Copyright © 2023-2024 | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">baiwumm</a>'
+    },
+    // algolia 搜索
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'LB0GO1G90U',
+        apiKey: 'd1bcf845c05db30141f080ecec4ac05a',
+        indexName: 'baiwummdocs',
+        locales: {
+          ...zhSearch,
+          ...enSearch
+        }
+      }
     }
   },
   // 国际化
