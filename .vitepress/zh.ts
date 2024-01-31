@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export const zh = defineConfig({
   lang: 'zh-Hans',
   titleTemplate: '白雾茫茫丶',
-  description: "前端开发学习笔记，后台模板、组件封装、面试宝典、数据算法、开发技巧、工具合集",
+  description: "前端开发学习笔记，面试宝典、LeetCode算法、每日壹题",
   themeConfig: {
     // 页脚版权
     footer: {
@@ -17,7 +17,8 @@ export const zh = defineConfig({
           { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
         ]
       },
-      { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' }
+      { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' },
+      { text: '每日壹题', link: '/daily-question/1' }
     ],
     sidebar: {
       '/interview-handbook/javascript': [
@@ -54,6 +55,9 @@ export const zh = defineConfig({
             { text: '整数反转', link: '/algorithm/intermediate/integer-inversion' },
           ]
         }
+      ],
+      '/daily-question/': [
+        { text: '第 1 题：写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么？', link: '/daily-question/1' },
       ],
     },
 

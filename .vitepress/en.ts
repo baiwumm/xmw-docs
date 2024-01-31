@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export const en = defineConfig({
   lang: 'en-US',
   titleTemplate: 'baiwumm',
-  description: "Front-end development learning notes, back-end templates, component packaging, interview handbook, data algorithms, development skills, tools collection",
+  description: "Front-end development study notes, interview handbook, LeetCode algorithm, one question a day",
 
   themeConfig: {
     // 页脚版权
@@ -18,7 +18,8 @@ export const en = defineConfig({
           { text: 'Vue', link: '/en/interview-handbook/vue/mvvm' },
         ]
       },
-      { text: 'LeetCode algorithm', link: '/en/algorithm/ease/sum-of-two-numbers' }
+      { text: 'LeetCode algorithm', link: '/en/algorithm/ease/sum-of-two-numbers' },
+      { text: 'Daily Question', link: '/en/daily-question/1' }
     ],
     sidebar: {
       '/en/interview-handbook/javascript': [
@@ -55,6 +56,9 @@ export const en = defineConfig({
             { text: 'Integer inversion', link: '/en/algorithm/intermediate/integer-inversion' },
           ]
         }
+      ],
+      '/en/daily-question/': [
+        { text: 'Question 1：Why write a key in a list component when writing a React/Vue project, and what does it do?', link: '/en/daily-question/1' },
       ],
     },
 
