@@ -86,4 +86,10 @@ export default defineConfig({
     root: { label: '简体中文', ...zh },
     en: { label: 'English', ...en }
   },
+  markdown: {
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    }
+  }
 })
