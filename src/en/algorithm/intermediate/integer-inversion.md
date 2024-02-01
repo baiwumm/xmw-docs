@@ -1,7 +1,9 @@
 ---
 title: Integer inversion
 ---
-# Integer inversion
+
+# {{ $frontmatter.title }}
+
 Gives you a 32-bit signed integer x that returns the result of inverting the numeric part of x.
 
 If the inverted integer exceeds the range of 32-bit signed integers, 0 is returned.
@@ -37,13 +39,16 @@ output：0
 :::
 
 ## Problem solving
+
 ```js
 /**
  * @param {number} x
  * @return {number}
  */
 const reserve = (x) => {
-  const result = Number(`${x > 0 ? '' : '-'}${parseInt(x.toString().split('').reverse().join(''))}`);
-  return (result >= -Math.pow(2, 31) && result <= Math.pow(2, 31)) ? result : 0;
-}
+  const result = Number(
+    `${x > 0 ? "" : "-"}${parseInt(x.toString().split("").reverse().join(""))}`
+  );
+  return result >= -Math.pow(2, 31) && result <= Math.pow(2, 31) ? result : 0;
+};
 ```

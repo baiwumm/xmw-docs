@@ -1,7 +1,7 @@
 ---
 title: Data type
 ---
-# Data type
+# {{ $frontmatter.title }}
 `JavaScript` has eight data types: `Undefined`, `Null`, `Boolean`, `Number`, `String`, `Object`, `Symbol`, `BigInt`.
 Where `Symbol` and `BigInt` are new data types in `ES6` :
 

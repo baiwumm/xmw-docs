@@ -1,7 +1,7 @@
 ---
 title: Class component life cycle
 ---
-# Class component life cycle
+# {{ $frontmatter.title }}
 
 ## Life cycle before React v16.0
 ### Mount phase

@@ -56,6 +56,7 @@ export const zh = defineConfig({
           items: [
             { text: '两数之和', link: '/algorithm/ease/sum-of-two-numbers' },
             { text: '回文数', link: '/algorithm/ease/palindromic-number' },
+            { text: '最长公共前缀', link: '/algorithm/ease/longest-common-prefix' },
           ]
         },
         {

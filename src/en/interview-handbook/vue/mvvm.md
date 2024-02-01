@@ -1,7 +1,7 @@
 ---
 title: Understanding of MVVM
 ---
-# Understanding of MVVM
+# {{ $frontmatter.title }}
 `MVVM` is a software architecture pattern, `MVVM` is divided into `Model`, `View`, `ViewModel` :
 
 * `Model` stands for data Model, data and business logic are defined in the `Model` layer
