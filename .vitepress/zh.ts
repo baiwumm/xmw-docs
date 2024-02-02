@@ -80,6 +80,7 @@ export const zh = defineConfig({
             { text: '两数之和', link: '/algorithm/ease/sum-of-two-numbers' },
             { text: '回文数', link: '/algorithm/ease/palindromic-number' },
             { text: '最长公共前缀', link: '/algorithm/ease/longest-common-prefix' },
+            { text: '罗马数字转整数', link: '/algorithm/ease/roman-to-numbers' },
           ]
         },
         {

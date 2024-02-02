@@ -80,7 +80,8 @@ export const en = defineConfig({
           items: [
             { text: 'Sum of two numbers', link: '/en/algorithm/ease/sum-of-two-numbers' },
             { text: 'Palindromic number', link: '/en/algorithm/ease/palindromic-number' },
-            { text: 'Longest common prefix', link: '/algorithm/ease/longest-common-prefix' },
+            { text: 'Longest common prefix', link: '/en/algorithm/ease/longest-common-prefix' },
+            { text: 'Roman numerals to whole numbers', link: '/en/algorithm/ease/roman-to-numbers' },
           ]
         },
         {
