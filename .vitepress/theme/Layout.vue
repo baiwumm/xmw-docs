@@ -69,4 +69,13 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 .VPSwitchAppearance .check {
   transform: none !important;
 }
+
+img[data-fancybox=gallery] {
+  cursor: zoom-in;
+  transition:.3s all;
+  filter:blur(0);
+}
+img[data-fancybox=gallery]:hover{
+  filter:blur(0) brightness(0.75)
+}
 </style>

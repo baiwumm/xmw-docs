@@ -10,6 +10,20 @@ export const zh = defineConfig({
       copyright: `版权所有 © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">白雾茫茫丶</a>`
     },
     nav: [
+      { 
+        text: '个人项目', 
+        items:[
+          {
+            text: '后台模板',
+            items:[
+              {
+                text:'Xmw Admin',
+                link: '/personal-project/xmw-admin',
+              }
+            ]
+          }
+        ]
+       },
       {
         text: '面试宝典',
         items: [
@@ -22,6 +36,15 @@ export const zh = defineConfig({
       { text: '每日壹题', link: '/daily-question/1' }
     ],
     sidebar: {
+      '/personal-project': [
+        {
+          text: '后台模板',
+          collapsed: false,
+          items: [
+            { text: 'Xmw Admin', link: '/personal-project/xmw-admin' },
+          ]
+        },
+      ],
       '/interview-handbook/javascript': [
         {
           text: '基础篇',

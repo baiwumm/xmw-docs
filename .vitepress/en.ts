@@ -11,6 +11,20 @@ export const en = defineConfig({
       copyright: `Copyright © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">baiwumm</a>`
     },
     nav: [
+      { 
+        text: 'Personal project', 
+        items:[
+          {
+            text: 'Background template',
+            items:[
+              {
+                text:'Xmw Admin',
+                link: '/en/personal-project/xmw-admin',
+              }
+            ]
+          }
+        ]
+       },
       {
         text: 'Interview handbook',
         items: [
@@ -23,6 +37,15 @@ export const en = defineConfig({
       { text: 'Daily Question', link: '/en/daily-question/1' }
     ],
     sidebar: {
+      '/en/personal-project': [
+        {
+          text: 'Background template',
+          collapsed: false,
+          items: [
+            { text: 'Xmw Admin', link: '/en/personal-project/xmw-admin' },
+          ]
+        },
+      ],
       '/en/interview-handbook/javascript': [
         {
           text: 'Basic chapter',

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import { zh, zhSearch } from './zh'
 import { en, enSearch } from './en'
 
@@ -51,6 +52,12 @@ export default defineConfig({
       'script',
       { async: '', 'data-website-id': 'eb0f8672-c066-464e-a710-5839b1c1536e', src: 'https://analysis.baiwumm.com/script.js' }
     ],
+    // 图片预览资源
+    [
+      "link",
+      { rel: "stylesheet", href: "https://cdn.baiwumm.com/css/fancybox.css" },
+    ],
+    ["script", { src: "https://cdn.baiwumm.com/js/fancybox.umd.js" }],
   ],
   sitemap: {
     hostname: 'https://docs.baiwumm.com'
@@ -90,6 +97,12 @@ export default defineConfig({
     image: {
       // 默认禁用图片懒加载
       lazyLoading: true
+    },
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(mdItCustomAttrs, 'image', {
+        'data-fancybox': "gallery"
+      })
     }
   }
 })
