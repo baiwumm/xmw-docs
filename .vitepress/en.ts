@@ -97,6 +97,7 @@ export const en = defineConfig({
         { text: `Question 2：['1', '2', '3'].map(parseInt) what & why ?`, link: '/en/daily-question/2' },
         { text: `Question 3：What is anti-shake and throttle? What's the difference? How to achieve it?`, link: '/en/daily-question/3' },
         { text: 'Question 4：What are the differences between Set, Map, WeakSet, and WeakMap?', link: '/en/daily-question/4' },
+        { text: 'Question 5：How to implement depth-first traversal and breadth-first traversal?', link: '/en/daily-question/5' },
       ],
     },
 
