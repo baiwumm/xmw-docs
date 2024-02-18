@@ -89,6 +89,13 @@ export const zh = defineConfig({
           items: [
             { text: '整数反转', link: '/algorithm/intermediate/integer-inversion' },
           ]
+        },
+        {
+          text: '困难',
+          collapsed: false,
+          items: [
+            { text: '寻找两个正序数组的中位数', link: '/algorithm/hard/ordinal-group-median' },
+          ]
         }
       ],
       '/daily-question/': [

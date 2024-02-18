@@ -90,6 +90,13 @@ export const en = defineConfig({
           items: [
             { text: 'Integer inversion', link: '/en/algorithm/intermediate/integer-inversion' },
           ]
+        },
+        {
+          text: 'hard',
+          collapsed: false,
+          items: [
+            { text: 'Find the median of two groups of positive Ordinal Numbers', link: '/en/algorithm/hard/ordinal-group-median' },
+          ]
         }
       ],
       '/en/daily-question/': [
