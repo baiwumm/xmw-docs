@@ -14,13 +14,12 @@ export const zh = defineConfig({
         text: '个人项目', 
         items:[
           {
-            text: '后台模板',
-            items:[
-              {
-                text:'Xmw Admin',
-                link: '/personal-project/xmw-admin',
-              }
-            ]
+            text:'今日热榜',
+            link: '/personal-project/daily-hot',
+          },
+          {
+            text:'Xmw Admin',
+            link: '/personal-project/xmw-admin',
           }
         ]
        },
@@ -37,13 +36,8 @@ export const zh = defineConfig({
     ],
     sidebar: {
       '/personal-project': [
-        {
-          text: '后台模板',
-          collapsed: false,
-          items: [
-            { text: 'Xmw Admin', link: '/personal-project/xmw-admin' },
-          ]
-        },
+        { text: '今日热榜', link: '/personal-project/daily-hot' },
+        { text: 'Xmw Admin', link: '/personal-project/xmw-admin' },
       ],
       '/interview-handbook/javascript': [
         {

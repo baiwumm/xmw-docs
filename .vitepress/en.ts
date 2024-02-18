@@ -15,13 +15,12 @@ export const en = defineConfig({
         text: 'Personal project', 
         items:[
           {
-            text: 'Background template',
-            items:[
-              {
-                text:'Xmw Admin',
-                link: '/en/personal-project/xmw-admin',
-              }
-            ]
+            text:'Daily Hot',
+            link: '/en/personal-project/daily-hot',
+          },
+          {
+            text:'Xmw Admin',
+            link: '/en/personal-project/xmw-admin',
           }
         ]
        },
@@ -38,13 +37,8 @@ export const en = defineConfig({
     ],
     sidebar: {
       '/en/personal-project': [
-        {
-          text: 'Background template',
-          collapsed: false,
-          items: [
-            { text: 'Xmw Admin', link: '/en/personal-project/xmw-admin' },
-          ]
-        },
+        { text: 'Daily Hot', link: '/en/personal-project/daily-hot' },
+        { text: 'Xmw Admin', link: '/en/personal-project/xmw-admin' },
       ],
       '/en/interview-handbook/javascript': [
         {
