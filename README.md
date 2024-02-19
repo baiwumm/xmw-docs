@@ -31,6 +31,7 @@
 ### 中等
 
 1. [整数反转](https://docs.baiwumm.com/algorithm/intermediate/integer-inversion)
+2. [两数相加](https://docs.baiwumm.com/algorithm/intermediate/add-two-numbers)
 
 ### 困难
 
@@ -45,4 +46,4 @@
 5. 第 5 题：[介绍下深度优先遍历和广度优先遍历，如何实现？](https://docs.baiwumm.com/daily-question/5)
 6. 第 6 题：[请分别用深度优先思想和广度优先思想实现一个拷贝函数？](https://docs.baiwumm.com/daily-question/6)
 7. 第 7 题：[ES5/ES6 的继承除了写法以外还有什么区别？](https://docs.baiwumm.com/daily-question/7)
-7. 第 8 题：[setTimeout、Promise、Async/Await 的区别](https://docs.baiwumm.com/daily-question/8)
+8. 第 8 题：[setTimeout、Promise、Async/Await 的区别](https://docs.baiwumm.com/daily-question/8)

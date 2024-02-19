@@ -83,6 +83,7 @@ export const en = defineConfig({
           collapsed: false,
           items: [
             { text: 'Integer inversion', link: '/en/algorithm/intermediate/integer-inversion' },
+            { text: 'Add two numbers together', link: '/en/algorithm/intermediate/add-two-numbers' },
           ]
         },
         {

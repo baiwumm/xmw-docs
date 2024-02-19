@@ -82,6 +82,7 @@ export const zh = defineConfig({
           collapsed: false,
           items: [
             { text: '整数反转', link: '/algorithm/intermediate/integer-inversion' },
+            { text: '两数相加', link: '/algorithm/intermediate/add-two-numbers' },
           ]
         },
         {
