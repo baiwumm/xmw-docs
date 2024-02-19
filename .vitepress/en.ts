@@ -100,6 +100,8 @@ export const en = defineConfig({
         { text: 'Question 4：What are the differences between Set, Map, WeakSet, and WeakMap?', link: '/en/daily-question/4' },
         { text: 'Question 5：How to implement depth-first traversal and breadth-first traversal?', link: '/en/daily-question/5' },
         { text: 'Question 6：Can you implement a copy function with depth-first and breadth-first ideas respectively?', link: '/en/daily-question/6' },
+        { text: 'Question 7：What are the differences between ES5/ES6 inheritance other than the way it is written?', link: '/en/daily-question/7' },
+        { text: 'Question 8：setTimeout, Promise, Async/Await difference', link: '/en/daily-question/8' },
       ],
     },
 

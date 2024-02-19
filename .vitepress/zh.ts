@@ -99,6 +99,8 @@ export const zh = defineConfig({
         { text: '第 4 题：介绍下 Set、Map、WeakSet 和 WeakMap 的区别？', link: '/daily-question/4' },
         { text: '第 5 题：介绍下深度优先遍历和广度优先遍历，如何实现？', link: '/daily-question/5' },
         { text: '第 6 题：请分别用深度优先思想和广度优先思想实现一个拷贝函数？', link: '/daily-question/6' },
+        { text: '第 7 题：ES5/ES6 的继承除了写法以外还有什么区别？', link: '/daily-question/7' },
+        { text: '第 8 题：setTimeout、Promise、Async/Await 的区别', link: '/daily-question/8' },
       ],
     },
 
