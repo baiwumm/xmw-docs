@@ -46,6 +46,7 @@ export const en = defineConfig({
           collapsed: false,
           items: [
             { text: 'Data type', link: '/en/interview-handbook/javascript/data-type' },
+            { text: 'Prototype and prototype chain', link: '/en/interview-handbook/javascript/prototype' },
           ]
         },
       ],

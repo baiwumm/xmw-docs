@@ -45,6 +45,7 @@ export const zh = defineConfig({
           collapsed: false,
           items: [
             { text: '数据类型', link: '/interview-handbook/javascript/data-type' },
+            { text: '原型和原型链', link: '/interview-handbook/javascript/prototype' },
           ]
         },
       ],
