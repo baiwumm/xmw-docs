@@ -15,3 +15,76 @@ title: 数据类型
 堆： 存放引用数据类型，引用数据类型占据空间大、大小不固定。如果存储在栈中，将会影响程序运行的性能；引用数据类型在栈中存储了指针，该指针指向堆中该实体的起始地址，如 `Object、Array、Function。`
 
 栈： 存放原始数据类型，栈中的简单数据段，占据空间小，属于被频繁使用的数据，如 `String、Number、Null、Boolean。`
+
+## 类型判断
+
+### typeof
+
+**示例**：
+
+```js
+var num = 123;
+console.log(typeof num); // 输出: "number"
+
+var str = "hello";
+console.log(typeof str); // 输出: "string"
+
+var obj = {};
+console.log(typeof obj); // 输出: "object"
+```
+
+**缺点**：只能判断基础数据类型（除 `null` 以外），如果是引用数据类型（如数组、函数、对象等）会返回 `Object`
+
+### instanceof
+
+**示例**：
+
+```js
+var myArray = [];
+console.log(myArray instanceof Array); // 输出: true
+
+var myString = new String("hello");
+console.log(myString instanceof String); // 输出: true
+```
+
+**缺点**：无法检测基础数据类型，因为 `instanceof` 是检测当前判断的类是否出现在实例的原型对象，会循着原型链寻找，所以我们可以改变原型链的指向导致数据类型不准确；
+
+### constructor
+
+**示例**：
+
+```js
+var str = "123";
+console.log(str.constructor === String);
+```
+
+**缺点**：`constructor` 可以改变，会导致判断不准确；
+
+### Object.prototype.toString.call()
+
+**示例**：
+
+```js
+var num = 123;
+console.log(Object.prototype.toString.call(num)); // 输出: [object Number]
+
+var str = "hello";
+console.log(Object.prototype.toString.call(str)); // 输出: [object String]
+
+var obj = {};
+console.log(Object.prototype.toString.call(obj)); // 输出: [object Object]
+```
+
+## 总结
+
+1. `typeof` 只能检测基本数据类型（除 `null`），对于数组、对象、正则等引用数据类型都返回为 `Object`；
+2. `instanceof` 不能检测基本数据类型，检测引用类型时会顺着原型链往上找，只要原型链上存在就会返回 `true`，我们也可以随意更改原型链的指向，导致检测结果不准确；
+3. `constructor` 可以检测基本数据类型，也能分辨出数组和对象，因为我们可以更改 `constructor`，随意会导致检测结果不准确；
+4. `Object.prototype.toString.call()` 是相对准确的，但是也不是百分百准确，因为可以用过符号 `[Symbol.toStringTag]` 修改，比如：
+
+```js
+const obj = {
+  [Symbol.toStringTag]: "abc",
+};
+console.log(Object.prototype.toString.call(obj)); // 输出: [object abc]
+```
