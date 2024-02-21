@@ -49,3 +49,4 @@
 7. 第 7 题：[ES5/ES6 的继承除了写法以外还有什么区别？](https://docs.baiwumm.com/daily-question/7)
 8. 第 8 题：[setTimeout、Promise、Async/Await 的区别](https://docs.baiwumm.com/daily-question/8)
 9. 第 9 题：[Async/Await 如何通过同步的方式实现异步](https://docs.baiwumm.com/daily-question/9)
+10. 第 10 题：[常见异步笔试题，请写出代码的运行结果](https://docs.baiwumm.com/daily-question/10)
