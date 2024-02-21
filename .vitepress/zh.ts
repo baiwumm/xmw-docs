@@ -29,6 +29,7 @@ export const zh = defineConfig({
           { text: 'Javascript', link: '/interview-handbook/javascript/data-type' },
           { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
           { text: 'React', link: '/interview-handbook/react/life-cycle' },
+          { text: '算法篇', link: '/interview-handbook/algorithm/bubble-sort' },
         ]
       },
       { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' },
@@ -40,32 +41,17 @@ export const zh = defineConfig({
         { text: 'Xmw Admin', link: '/personal-project/xmw-admin' },
       ],
       '/interview-handbook/javascript': [
-        {
-          text: '基础篇',
-          collapsed: false,
-          items: [
-            { text: '数据类型', link: '/interview-handbook/javascript/data-type' },
-            { text: '原型和原型链', link: '/interview-handbook/javascript/prototype' },
-          ]
-        },
+        { text: '数据类型', link: '/interview-handbook/javascript/data-type' },
+        { text: '原型和原型链', link: '/interview-handbook/javascript/prototype' },
       ],
       '/interview-handbook/vue': [
-        {
-          text: '基础篇',
-          collapsed: false,
-          items: [
-            { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
-          ]
-        },
+        { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
       ],
       '/interview-handbook/react': [
-        {
-          text: '基础篇',
-          collapsed: false,
-          items: [
-            { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
-          ]
-        },
+        { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
+      ],
+      '/interview-handbook/algorithm': [
+        { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
       ],
       '/algorithm/': [
         {

@@ -30,6 +30,7 @@ export const en = defineConfig({
           { text: 'Javascript', link: '/en/interview-handbook/javascript/data-type' },
           { text: 'Vue', link: '/en/interview-handbook/vue/mvvm' },
           { text: 'React', link: '/en/interview-handbook/react/life-cycle' },
+          { text: 'Algorithm', link: '/en/interview-handbook/algorithm/bubble-sort' },
         ]
       },
       { text: 'LeetCode algorithm', link: '/en/algorithm/ease/sum-of-two-numbers' },
@@ -41,32 +42,17 @@ export const en = defineConfig({
         { text: 'Xmw Admin', link: '/en/personal-project/xmw-admin' },
       ],
       '/en/interview-handbook/javascript': [
-        {
-          text: 'Basic chapter',
-          collapsed: false,
-          items: [
-            { text: 'Data type', link: '/en/interview-handbook/javascript/data-type' },
-            { text: 'Prototype and prototype chain', link: '/en/interview-handbook/javascript/prototype' },
-          ]
-        },
+        { text: 'Data type', link: '/en/interview-handbook/javascript/data-type' },
+        { text: 'Prototype and prototype chain', link: '/en/interview-handbook/javascript/prototype' },
       ],
       '/en/interview-handbook/vue': [
-        {
-          text: 'Basic chapter',
-          collapsed: false,
-          items: [
-            { text: 'Understanding of MVVM', link: '/en/interview-handbook/vue/mvvm' },
-          ]
-        },
+        { text: 'Understanding of MVVM', link: '/en/interview-handbook/vue/mvvm' },
       ],
       '/en/interview-handbook/react': [
-        {
-          text: 'Basic chapter',
-          collapsed: false,
-          items: [
-            { text: 'Class component life cycle', link: '/en/interview-handbook/react/life-cycle' },
-          ]
-        },
+        { text: 'Class component life cycle', link: '/en/interview-handbook/react/life-cycle' },
+      ],
+      '/en/interview-handbook/algorithm': [
+        { text: 'Bubble sort', link: '/en/interview-handbook/algorithm/bubble-sort' },
       ],
       '/en/algorithm/': [
         {

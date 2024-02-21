@@ -20,6 +20,10 @@
 
 1. [类组件生命周期](https://docs.baiwumm.com/interview-handbook/react/life-cycle)
 
+### 算法篇
+
+1. [冒泡排序](https://docs.baiwumm.com/interview-handbook/algorithm/bubble-sort)
+
 ## LeetCode 算法
 
 ### 简单
