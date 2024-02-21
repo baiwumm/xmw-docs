@@ -103,6 +103,7 @@ export const zh = defineConfig({
         { text: '第 6 题：请分别用深度优先思想和广度优先思想实现一个拷贝函数？', link: '/daily-question/6' },
         { text: '第 7 题：ES5/ES6 的继承除了写法以外还有什么区别？', link: '/daily-question/7' },
         { text: '第 8 题：setTimeout、Promise、Async/Await 的区别', link: '/daily-question/8' },
+        { text: '第 9 题：Async/Await 如何通过同步的方式实现异步', link: '/daily-question/9' },
       ],
     },
 
