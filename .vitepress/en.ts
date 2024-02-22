@@ -92,6 +92,7 @@ export const en = defineConfig({
         { text: 'Question 8：setTimeout, Promise, Async/Await difference', link: '/en/daily-question/8' },
         { text: 'Question 9：How does Async/Await implement asynchrony in a synchronous manner', link: '/en/daily-question/9' },
         { text: 'Question 10：Common asynchronous pen test questions, please write the running results of the code', link: '/en/daily-question/10' },
+        { text: 'Question 11：Flatten the array and remove duplicate data from it, resulting in an ascending, non-duplicate array', link: '/en/daily-question/11' },
       ],
     },
 

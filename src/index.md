@@ -28,6 +28,7 @@ features:
     title: 每日壹题
     details: 每天一道编程题，提高巩固你的开发思维
 ---
+
 <style>
 :root {
   --main-color-1:#FCD000;
@@ -45,6 +46,30 @@ features:
   --vp-c-brand-1: var(--main-color-4);
 }
 
+/* 修改滚动条样式 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  background-color: rgba(191, 191, 191, .65);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: rgba(73, 177, 245, .2);
+  display: none
+}
+
+::-webkit-scrollbar-track-piece {
+  display: none
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
@@ -57,4 +82,3 @@ features:
   }
 }
 </style>
-
