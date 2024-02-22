@@ -20,6 +20,10 @@ export const zh = defineConfig({
           {
             text:'Xmw Admin',
             link: '/personal-project/xmw-admin',
+          },
+          {
+            text:'站点统计',
+            link: 'https://analysis.baiwumm.com/share/GqbrYmgMFKUIm62q',
           }
         ]
        },

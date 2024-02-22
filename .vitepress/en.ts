@@ -21,6 +21,10 @@ export const en = defineConfig({
           {
             text:'Xmw Admin',
             link: '/en/personal-project/xmw-admin',
+          },
+          {
+            text:'Site statistics',
+            link: 'https://analysis.baiwumm.com/share/GqbrYmgMFKUIm62q',
           }
         ]
        },
