@@ -53,6 +53,7 @@ export const en = defineConfig({
       ],
       '/en/interview-handbook/algorithm': [
         { text: 'Bubble sort', link: '/en/interview-handbook/algorithm/bubble-sort' },
+        { text: 'Selection sort', link: '/en/interview-handbook/algorithm/selection-sort' },
       ],
       '/en/algorithm/': [
         {

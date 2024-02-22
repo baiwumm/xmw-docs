@@ -12,7 +12,7 @@ hero:
       link: https://baiwumm.com/
     - theme: alt
       text: Github
-      link: https://github.com/baiwumm
+      link: https://github.com/baiwumm/xmw-docs
   image:
     src: /logo.svg
     alt: Logo
@@ -28,57 +28,3 @@ features:
     title: 每日壹题
     details: 每天一道编程题，提高巩固你的开发思维
 ---
-
-<style>
-:root {
-  --main-color-1:#FCD000;
-  --main-color-2:#FF3C41;
-  --main-color-3:#000000;
-  --main-color-4:#0EBEFF;
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(45deg, var(--main-color-1) 20%, var(--main-color-4));
-
-  --vp-home-hero-image-background-image: linear-gradient(45deg, var(--main-color-1) 65%,var(--main-color-4) 35%);
-  --vp-home-hero-image-filter: blur(44px);
-
-  --vp-button-brand-bg:var(--main-color-4);
-  --vp-button-brand-hover-bg: var(--main-color-1);
-  --vp-c-brand-1: var(--main-color-4);
-}
-
-/* 修改滚动条样式 */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: padding-box;
-  background-color: rgba(191, 191, 191, .65);
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-color: rgba(73, 177, 245, .2);
-  display: none
-}
-
-::-webkit-scrollbar-track-piece {
-  display: none
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
-}
-</style>

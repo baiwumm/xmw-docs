@@ -4,12 +4,24 @@ title: Bubble sort
 
 # {{ $frontmatter.title }}
 
-1. Compare the two adjacent elements in turn, switching positions according to size, so that each larger number comes last
-2. Repeat `n+1` times to complete the sorting
+## thought
+
+1. Bubble sort only operates on two adjacent pieces of data.
+2. Each bubbling operation compares two adjacent elements to see if the size relationship requirements are met. If you're not satisfied, let them swap.
+3. A bubble will make at least one element move to the position it should be in, repeat `n` times, and complete the sorting of `n` data.
+
+## Analyze
+
+- Space complexity：`O(1)`, is a `n situ` sorting algorithm.
+- Time complexity：
+  - Best case：T(n) = O(n)。
+  - Worst case：T(n) = O(n^2)。
+  - Average case：T(n) = O(n^2)。
+- Stability：In bubble sort, only an exchange can change the order of two elements. In order to ensure the stability of the bubble sorting algorithm, when there are two adjacent elements of the same size, we do not exchange, the same size of the data before and after the sorting will not change the order. So bubble sort is a `stable` sort algorithm.
+
+## Concrete realization
 
 ```js
-// Time complexity O(n ^ 2) n is the length of the array
-// Space complexity O(1)
 Array.prototype.bubbleSort = function () {
   // Gets the current array
   const ctx = this;
@@ -24,7 +36,7 @@ Array.prototype.bubbleSort = function () {
 };
 ```
 
-Test：
+## Test
 
 ```js
 let arr = [3, 6, 12, 65, 23, 2];

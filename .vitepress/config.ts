@@ -95,6 +95,8 @@ export default defineConfig({
   markdown: {
     // 行号
     lineNumbers: true,
+    // 数学方程
+    math: true,
     image: {
       // 默认禁用图片懒加载
       lazyLoading: true
