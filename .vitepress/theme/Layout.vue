@@ -1,13 +1,22 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData,useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide } from 'vue'
+import { nextTick, provide,ref,watch } from 'vue'
+import Comment from './components/Comment.vue'
 
 const { isDark, lang } = useData();
 
 const { Layout } = DefaultTheme
+const route = useRoute()
+const num = ref(0)
+watch(
+  () => route.path,
+  () => {
+    num.value++
+  }
+)
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
@@ -44,7 +53,12 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <Layout />
+  <Layout>
+    <!-- #doc-after 表示在每篇文章的最后位置添加 Comment组件 -->
+    <template #doc-after>
+      <Comment :key="num"/>
+    </template>
+  </Layout>
 </template>
 
 <style>

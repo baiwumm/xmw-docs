@@ -3,6 +3,8 @@ import { h, watch } from 'vue'
 import Theme from 'vitepress/theme'
 import Layout from './Layout.vue'
 
+import 'gitalk/dist/gitalk.css'
+
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
