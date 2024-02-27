@@ -104,6 +104,7 @@ export const zh = defineConfig({
         { text: '第 9 题：Async/Await 如何通过同步的方式实现异步', link: '/daily-question/9' },
         { text: '第 10 题：常见异步笔试题，请写出代码的运行结果', link: '/daily-question/10' },
         { text: '第 11 题：将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组', link: '/daily-question/11' },
+        { text: '第 12 题：JS 异步解决方案的发展历程以及优缺点', link: '/daily-question/12' },
       ],
     },
 
