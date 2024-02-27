@@ -57,6 +57,7 @@ export const zh = defineConfig({
       '/interview-handbook/algorithm': [
         { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
         { text: '选择排序', link: '/interview-handbook/algorithm/selection-sort' },
+        { text: '插入排序', link: '/interview-handbook/algorithm/insertion-sort' },
       ],
       '/algorithm/': [
         {
