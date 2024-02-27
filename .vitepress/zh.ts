@@ -47,6 +47,7 @@ export const zh = defineConfig({
       '/interview-handbook/javascript': [
         { text: '数据类型', link: '/interview-handbook/javascript/data-type' },
         { text: '原型和原型链', link: '/interview-handbook/javascript/prototype' },
+        { text: '闭包', link: '/interview-handbook/javascript/closure' },
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },

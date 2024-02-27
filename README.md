@@ -11,6 +11,7 @@
 
 1. [数据类型](https://docs.baiwumm.com/interview-handbook/javascript/data-type)
 2. [原型和原型链](https://docs.baiwumm.com/interview-handbook/javascript/prototype)
+3. [闭包](https://docs.baiwumm.com/interview-handbook/javascript/closure)
 
 ### Vue
 
