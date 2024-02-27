@@ -106,6 +106,7 @@ export const zh = defineConfig({
         { text: '第 11 题：将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组', link: '/daily-question/11' },
         { text: '第 12 题：JS 异步解决方案的发展历程以及优缺点', link: '/daily-question/12' },
         { text: '第 13 题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？', link: '/daily-question/13' },
+        { text: '第 14 题：情人节福利题，如何实现一个 new', link: '/daily-question/14' },
       ],
     },
 

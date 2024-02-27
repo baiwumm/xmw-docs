@@ -65,3 +65,4 @@
 11. 第 11 题：[将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组](https://docs.baiwumm.com/daily-question/11)
 12. 第 12 题：[JS 异步解决方案的发展历程以及优缺点](https://docs.baiwumm.com/daily-question/12)
 13. 第 13 题：[Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？](https://docs.baiwumm.com/daily-question/13)
+14. 第 14 题：[情人节福利题，如何实现一个 new](https://docs.baiwumm.com/daily-question/14)
