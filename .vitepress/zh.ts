@@ -34,6 +34,7 @@ export const zh = defineConfig({
           { text: 'Vue', link: '/interview-handbook/vue/mvvm' },
           { text: 'React', link: '/interview-handbook/react/life-cycle' },
           { text: '算法篇', link: '/interview-handbook/algorithm/bubble-sort' },
+          { text: '浏览器篇', link: '/interview-handbook/browser/cross-domain' },
         ]
       },
       { text: 'LeetCode算法', link: '/algorithm/ease/sum-of-two-numbers' },
@@ -60,6 +61,9 @@ export const zh = defineConfig({
         { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
         { text: '选择排序', link: '/interview-handbook/algorithm/selection-sort' },
         { text: '插入排序', link: '/interview-handbook/algorithm/insertion-sort' },
+      ],
+      '/interview-handbook/browser': [
+        { text: '如何解决跨域', link: '/interview-handbook/browser/cross-domain' },
       ],
       '/algorithm/': [
         {

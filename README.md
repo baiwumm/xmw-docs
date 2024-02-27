@@ -28,6 +28,10 @@
 2. [选择排序](https://docs.baiwumm.com/interview-handbook/algorithm/selection-sort)
 3. [插入排序](https://docs.baiwumm.com/interview-handbook/algorithm/insertion-sort)
 
+### 浏览器篇
+
+1. [如何解决跨域](https://docs.baiwumm.com/interview-handbook/browser/cross-domain)
+
 ## LeetCode 算法
 
 ### 简单
