@@ -105,6 +105,7 @@ export const zh = defineConfig({
         { text: '第 10 题：常见异步笔试题，请写出代码的运行结果', link: '/daily-question/10' },
         { text: '第 11 题：将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组', link: '/daily-question/11' },
         { text: '第 12 题：JS 异步解决方案的发展历程以及优缺点', link: '/daily-question/12' },
+        { text: '第 13 题：Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？', link: '/daily-question/13' },
       ],
     },
 

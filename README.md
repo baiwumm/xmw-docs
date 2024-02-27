@@ -64,3 +64,4 @@
 10. 第 10 题：[常见异步笔试题，请写出代码的运行结果](https://docs.baiwumm.com/daily-question/10)
 11. 第 11 题：[将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组](https://docs.baiwumm.com/daily-question/11)
 12. 第 12 题：[JS 异步解决方案的发展历程以及优缺点](https://docs.baiwumm.com/daily-question/12)
+13. 第 13 题：[Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？](https://docs.baiwumm.com/daily-question/13)
