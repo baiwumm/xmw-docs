@@ -66,3 +66,4 @@
 12. 第 12 题：[JS 异步解决方案的发展历程以及优缺点](https://docs.baiwumm.com/daily-question/12)
 13. 第 13 题：[Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？](https://docs.baiwumm.com/daily-question/13)
 14. 第 14 题：[情人节福利题，如何实现一个 new](https://docs.baiwumm.com/daily-question/14)
+15. 第 15 题：[简单讲解一下 http2 的多路复用](https://docs.baiwumm.com/daily-question/15)
