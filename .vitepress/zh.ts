@@ -61,6 +61,7 @@ export const zh = defineConfig({
         { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
         { text: '选择排序', link: '/interview-handbook/algorithm/selection-sort' },
         { text: '插入排序', link: '/interview-handbook/algorithm/insertion-sort' },
+        { text: '归并排序', link: '/interview-handbook/algorithm/merge-sort' },
       ],
       '/interview-handbook/browser': [
         { text: '如何解决跨域', link: '/interview-handbook/browser/cross-domain' },

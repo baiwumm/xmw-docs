@@ -4,6 +4,8 @@ title: 选择排序
 
 # {{ $frontmatter.title }}
 
+![](https://cdn.baiwumm.com/images/202402/ansl243gstz6pr4zllfldy46hiq2nsu8.gif)
+
 ## 思想
 
 1. 首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置。

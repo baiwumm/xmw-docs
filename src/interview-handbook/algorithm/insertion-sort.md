@@ -4,6 +4,8 @@ title: 插入排序
 
 # {{ $frontmatter.title }}
 
+![](https://cdn.baiwumm.com/images/202402/lqdnwnecnwjqnfi1gjltawaqs4pqxyl1.gif)
+
 ## 思想
 
 1. 从第一个元素开始，该元素可以认为已经被排序

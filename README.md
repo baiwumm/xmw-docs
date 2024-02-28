@@ -27,6 +27,7 @@
 1. [冒泡排序](https://docs.baiwumm.com/interview-handbook/algorithm/bubble-sort)
 2. [选择排序](https://docs.baiwumm.com/interview-handbook/algorithm/selection-sort)
 3. [插入排序](https://docs.baiwumm.com/interview-handbook/algorithm/insertion-sort)
+4. [归并排序](https://docs.baiwumm.com/interview-handbook/algorithm/merge-sort)
 
 ### 浏览器篇
 

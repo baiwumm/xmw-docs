@@ -4,6 +4,8 @@ title: 冒泡排序
 
 # {{ $frontmatter.title }}
 
+![](https://cdn.baiwumm.com/images/202402/ysp1crw5eg9t5ruraq59gbrnqgd4ua5b.gif)
+
 ## 思想
 
 1. 冒泡排序只会操作相邻的两个数据。
