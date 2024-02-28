@@ -50,6 +50,7 @@ export const zh = defineConfig({
         { text: '原型和原型链', link: '/interview-handbook/javascript/prototype' },
         { text: '闭包', link: '/interview-handbook/javascript/closure' },
         { text: '作用域和作用域链', link: '/interview-handbook/javascript/scope' },
+        { text: '垃圾回收机制', link: '/interview-handbook/javascript/garbage-collection' },
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
