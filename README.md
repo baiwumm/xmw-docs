@@ -67,3 +67,4 @@
 13. 第 13 题：[Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？](https://docs.baiwumm.com/daily-question/13)
 14. 第 14 题：[情人节福利题，如何实现一个 new](https://docs.baiwumm.com/daily-question/14)
 15. 第 15 题：[简单讲解一下 http2 的多路复用](https://docs.baiwumm.com/daily-question/15)
+16. 第 16 题：[谈谈你对 TCP 三次握手和四次挥手的理解](https://docs.baiwumm.com/daily-question/16)
