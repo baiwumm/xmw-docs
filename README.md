@@ -73,3 +73,4 @@
 17. 第 17 题：[A、B 机器正常连接后，B 机器突然重启，问 A 此时处于 TCP 什么状态](https://docs.baiwumm.com/daily-question/17)
 18. 第 18 题：[React 中 setState 什么时候是同步的，什么时候是异步的？](https://docs.baiwumm.com/daily-question/18)
 19. 第 19 题：[React setState 笔试题，下面的代码输出什么？](https://docs.baiwumm.com/daily-question/19)
+20. 第 20 题：[介绍下 npm 模块安装机制，为什么输入 npm install 就可以自动安装对应的模块？](https://docs.baiwumm.com/daily-question/20)
