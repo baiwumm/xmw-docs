@@ -33,6 +33,7 @@
 ### 浏览器篇
 
 1. [如何解决跨域](https://docs.baiwumm.com/interview-handbook/browser/cross-domain)
+2. [浏览器缓存](https://docs.baiwumm.com/interview-handbook/browser/cache)
 
 ## LeetCode 算法
 
