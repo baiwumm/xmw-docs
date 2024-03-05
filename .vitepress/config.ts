@@ -11,6 +11,7 @@ export default defineConfig({
   outDir: "./dist", // 站点的构建输出位置
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }], // 网站 icon
+    ["meta", { name: "baidu-site-verification", content: "codeva-GNJxvAgv0p" }], // 站点验证
     // 谷歌分析
     [
       "script",
