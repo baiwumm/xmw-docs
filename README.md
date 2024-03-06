@@ -18,6 +18,7 @@
 ### Vue
 
 1. [MVVM 的理解](https://docs.baiwumm.com/interview-handbook/vue/mvvm)
+2. [Vue3 和 Vue2 的区别](https://docs.baiwumm.com/interview-handbook/vue/difference-of-vue)
 
 ### React
 

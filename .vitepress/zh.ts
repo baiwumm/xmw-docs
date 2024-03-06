@@ -54,6 +54,7 @@ export const zh = defineConfig({
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
+        { text: 'Vue3 和 Vue2 的区别', link: '/interview-handbook/vue/difference-of-vue' },
       ],
       '/interview-handbook/react': [
         { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
