@@ -69,6 +69,7 @@ export const zh = defineConfig({
       '/interview-handbook/browser': [
         { text: '如何解决跨域', link: '/interview-handbook/browser/cross-domain' },
         { text: '浏览器缓存', link: '/interview-handbook/browser/cache' },
+        { text: 'XSS 跨站脚本攻击', link: '/interview-handbook/browser/xss' },
       ],
       '/algorithm/': [
         {

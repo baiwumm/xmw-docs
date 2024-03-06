@@ -36,6 +36,7 @@
 
 1. [如何解决跨域](https://docs.baiwumm.com/interview-handbook/browser/cross-domain)
 2. [浏览器缓存](https://docs.baiwumm.com/interview-handbook/browser/cache)
+3. [XSS 跨站脚本攻击](https://docs.baiwumm.com/interview-handbook/browser/xss)
 
 ## LeetCode 算法
 
