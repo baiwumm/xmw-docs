@@ -14,6 +14,7 @@
 3. [闭包](https://docs.baiwumm.com/interview-handbook/javascript/closure)
 4. [作用域和作用域链](https://docs.baiwumm.com/interview-handbook/javascript/scope)
 5. [垃圾回收机制](https://docs.baiwumm.com/interview-handbook/javascript/garbage-collection)
+6. [变量提升](https://docs.baiwumm.com/interview-handbook/javascript/variable-lifting)
 
 ### Vue
 

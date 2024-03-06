@@ -51,6 +51,7 @@ export const zh = defineConfig({
         { text: '闭包', link: '/interview-handbook/javascript/closure' },
         { text: '作用域和作用域链', link: '/interview-handbook/javascript/scope' },
         { text: '垃圾回收机制', link: '/interview-handbook/javascript/garbage-collection' },
+        { text: '变量提升', link: '/interview-handbook/javascript/variable-lifting' },
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
