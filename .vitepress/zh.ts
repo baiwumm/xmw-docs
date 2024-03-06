@@ -59,6 +59,7 @@ export const zh = defineConfig({
       ],
       '/interview-handbook/react': [
         { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
+        { text: 'JSX 的理解', link: '/interview-handbook/react/jsx' },
       ],
       '/interview-handbook/algorithm': [
         { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
