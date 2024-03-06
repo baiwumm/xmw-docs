@@ -118,6 +118,7 @@ export const zh = defineConfig({
         { text: '第 19 题：React setState 笔试题，下面的代码输出什么？', link: '/daily-question/19' },
         { text: '第 20 题：介绍下 npm 模块安装机制，为什么输入 npm install 就可以自动安装对应的模块？', link: '/daily-question/20' },
         { text: '第 21 题：有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()', link: '/daily-question/21' },
+        { text: '第 22 题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化', link: '/daily-question/22' },
       ],
     },
 
