@@ -1,5 +1,7 @@
 # XmwDocs 前端开发学习笔记
 
+如果觉得对你有帮助，动动小手指点个 `star` 吧 🌹🫡
+
 ## 个人项目
 
 1. [今日热榜](https://hot.baiwumm.com/)
@@ -82,3 +84,4 @@
 21. 第 21 题：[有以下 3 个判断数组的方法，请分别介绍它们之间的区别和优劣 Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()](https://docs.baiwumm.com/daily-question/21)
 22. 第 22 题：[介绍下重绘和回流（Repaint & Reflow），以及如何进行优化](https://docs.baiwumm.com/daily-question/22)
 23. 第 23 题：[介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景](https://docs.baiwumm.com/daily-question/23)
+24. 第 24 题：[聊聊 Redux 和 Vuex 的设计思想](https://docs.baiwumm.com/daily-question/24)

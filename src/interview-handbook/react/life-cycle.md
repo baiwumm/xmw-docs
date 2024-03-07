@@ -4,6 +4,8 @@ title: 类组件生命周期
 
 # {{ $frontmatter.title }}
 
+![](https://cdn.baiwumm.com/images/202403/biao6mmcxn7lv6u8j2dvqnabxy9tevbq.jpg)
+
 ## React v16.0 前的生命周期
 
 ### 挂载阶段
