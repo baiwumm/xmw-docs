@@ -55,8 +55,9 @@ export const zh = defineConfig({
         { text: 'this 指向机制', link: '/interview-handbook/javascript/this' },
       ],
       '/interview-handbook/vue': [
-        { text: 'MVVM的理解', link: '/interview-handbook/vue/mvvm' },
+        { text: 'MVVM 的理解', link: '/interview-handbook/vue/mvvm' },
         { text: 'Vue3 和 Vue2 的区别', link: '/interview-handbook/vue/difference-of-vue' },
+        { text: 'key 的作用和工作原理', link: '/interview-handbook/vue/key' },
       ],
       '/interview-handbook/react': [
         { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
@@ -125,6 +126,7 @@ export const zh = defineConfig({
         { text: '第 22 题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化', link: '/daily-question/22' },
         { text: '第 23 题：介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景', link: '/daily-question/23' },
         { text: '第 24 题：聊聊 Redux 和 Vuex 的设计思想', link: '/daily-question/24' },
+        { text: '第 26 题：介绍模块化发展历程', link: '/daily-question/26' },
       ],
     },
 

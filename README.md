@@ -23,6 +23,7 @@
 
 1. [MVVM 的理解](https://docs.baiwumm.com/interview-handbook/vue/mvvm)
 2. [Vue3 和 Vue2 的区别](https://docs.baiwumm.com/interview-handbook/vue/difference-of-vue)
+3. [key 的作用和工作原理](https://docs.baiwumm.com/interview-handbook/vue/key)
 
 ### React
 
@@ -86,3 +87,4 @@
 22. 第 22 题：[介绍下重绘和回流（Repaint & Reflow），以及如何进行优化](https://docs.baiwumm.com/daily-question/22)
 23. 第 23 题：[介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景](https://docs.baiwumm.com/daily-question/23)
 24. 第 24 题：[聊聊 Redux 和 Vuex 的设计思想](https://docs.baiwumm.com/daily-question/24)
+26. 第 26 题：[介绍模块化发展历程](https://docs.baiwumm.com/daily-question/26)
