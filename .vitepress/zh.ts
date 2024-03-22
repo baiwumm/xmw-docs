@@ -10,23 +10,23 @@ export const zh = defineConfig({
       copyright: `版权所有 © 2023-${new Date().getFullYear()} | Made with 🤯 by <a href="https://baiwumm.com/" target="_blank">白雾茫茫丶</a>`
     },
     nav: [
-      { 
-        text: '个人项目', 
-        items:[
+      {
+        text: '个人项目',
+        items: [
           {
-            text:'今日热榜',
+            text: '今日热榜',
             link: '/personal-project/daily-hot',
           },
           {
-            text:'Xmw Admin',
+            text: 'Xmw Admin',
             link: '/personal-project/xmw-admin',
           },
           {
-            text:'站点统计',
+            text: '站点统计',
             link: 'https://analysis.baiwumm.com/share/GqbrYmgMFKUIm62q',
           }
         ]
-       },
+      },
       {
         text: '面试宝典',
         items: [
@@ -126,6 +126,7 @@ export const zh = defineConfig({
         { text: '第 22 题：介绍下重绘和回流（Repaint & Reflow），以及如何进行优化', link: '/daily-question/22' },
         { text: '第 23 题：介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景', link: '/daily-question/23' },
         { text: '第 24 题：聊聊 Redux 和 Vuex 的设计思想', link: '/daily-question/24' },
+        { text: '第 25 题：浏览器和Node 事件循环的区别', link: '/daily-question/25' },
         { text: '第 26 题：介绍模块化发展历程', link: '/daily-question/26' },
         { text: '第 27 题：关于 const 和 let 声明的变量不在 window 上', link: '/daily-question/27' },
         { text: '第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？', link: '/daily-question/28' },
