@@ -127,6 +127,7 @@ export const zh = defineConfig({
         { text: '第 23 题：介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景', link: '/daily-question/23' },
         { text: '第 24 题：聊聊 Redux 和 Vuex 的设计思想', link: '/daily-question/24' },
         { text: '第 26 题：介绍模块化发展历程', link: '/daily-question/26' },
+        { text: '第 27 题：关于 const 和 let 声明的变量不在 window 上', link: '/daily-question/27' },
       ],
     },
 
