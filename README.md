@@ -89,3 +89,4 @@
 24. 第 24 题：[聊聊 Redux 和 Vuex 的设计思想](https://docs.baiwumm.com/daily-question/24)
 25. 第 26 题：[介绍模块化发展历程](https://docs.baiwumm.com/daily-question/26)
 26. 第 27 题：[关于 const 和 let 声明的变量不在 window 上](https://docs.baiwumm.com/daily-question/27)
+27. 第 28 题：[cookie 和 token 都存放在 header 中，为什么不会劫持 token？](https://docs.baiwumm.com/daily-question/28)

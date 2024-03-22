@@ -128,6 +128,7 @@ export const zh = defineConfig({
         { text: '第 24 题：聊聊 Redux 和 Vuex 的设计思想', link: '/daily-question/24' },
         { text: '第 26 题：介绍模块化发展历程', link: '/daily-question/26' },
         { text: '第 27 题：关于 const 和 let 声明的变量不在 window 上', link: '/daily-question/27' },
+        { text: '第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？', link: '/daily-question/28' },
       ],
     },
 
