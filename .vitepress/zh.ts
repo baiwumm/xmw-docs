@@ -77,6 +77,7 @@ export const zh = defineConfig({
         { text: 'XSS 跨站脚本攻击', link: '/interview-handbook/browser/xss' },
         { text: 'CSRF 跨站请求伪造', link: '/interview-handbook/browser/csrf' },
         { text: '输入 url 会发生什么', link: '/interview-handbook/browser/url' },
+        { text: 'cookie 和 session 的区别', link: '/interview-handbook/browser/cookie-and-session' },
       ],
       '/algorithm/': [
         {

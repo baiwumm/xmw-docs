@@ -46,6 +46,7 @@
 3. [XSS 跨站脚本攻击](https://docs.baiwumm.com/interview-handbook/browser/xss)
 4. [CSRF 跨站请求伪造](https://docs.baiwumm.com/interview-handbook/browser/csrf)
 5. [输入 url 会发生什么](https://docs.baiwumm.com/interview-handbook/browser/url)
+6. [cookie 和 session 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-session)
 
 ## LeetCode 算法
 
