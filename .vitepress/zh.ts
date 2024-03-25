@@ -63,6 +63,7 @@ export const zh = defineConfig({
         { text: '类组件生命周期', link: '/interview-handbook/react/life-cycle' },
         { text: 'JSX 的理解', link: '/interview-handbook/react/jsx' },
         { text: 'setState 函数做了哪些事情', link: '/interview-handbook/react/set-state' },
+        { text: '为什么调用 setState 而不是直接改变 state', link: '/interview-handbook/react/why-state' },
       ],
       '/interview-handbook/algorithm': [
         { text: '冒泡排序', link: '/interview-handbook/algorithm/bubble-sort' },
