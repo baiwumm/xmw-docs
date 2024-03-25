@@ -45,6 +45,7 @@
 2. [浏览器缓存](https://docs.baiwumm.com/interview-handbook/browser/cache)
 3. [XSS 跨站脚本攻击](https://docs.baiwumm.com/interview-handbook/browser/xss)
 4. [CSRF 跨站请求伪造](https://docs.baiwumm.com/interview-handbook/browser/csrf)
+5. [输入 url 会发生什么](https://docs.baiwumm.com/interview-handbook/browser/url)
 
 ## LeetCode 算法
 

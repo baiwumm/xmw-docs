@@ -76,6 +76,7 @@ export const zh = defineConfig({
         { text: '浏览器缓存', link: '/interview-handbook/browser/cache' },
         { text: 'XSS 跨站脚本攻击', link: '/interview-handbook/browser/xss' },
         { text: 'CSRF 跨站请求伪造', link: '/interview-handbook/browser/csrf' },
+        { text: '输入 url 会发生什么', link: '/interview-handbook/browser/url' },
       ],
       '/algorithm/': [
         {
