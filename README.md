@@ -29,6 +29,7 @@
 
 1. [类组件生命周期](https://docs.baiwumm.com/interview-handbook/react/life-cycle)
 2. [JSX 的理解](https://docs.baiwumm.com/interview-handbook/react/jsx)
+3. [setState 函数做了哪些事情](https://docs.baiwumm.com/interview-handbook/react/set-state)
 
 ### 算法篇
 
