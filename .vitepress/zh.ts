@@ -131,6 +131,7 @@ export const zh = defineConfig({
         { text: '第 26 题：介绍模块化发展历程', link: '/daily-question/26' },
         { text: '第 27 题：关于 const 和 let 声明的变量不在 window 上', link: '/daily-question/27' },
         { text: '第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？', link: '/daily-question/28' },
+        { text: '第 29 题：聊聊 Vue 的双向数据绑定，Model 如何改变 View，View 又是如何改变 Model 的', link: '/daily-question/29' },
       ],
     },
 
