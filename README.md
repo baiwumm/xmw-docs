@@ -47,6 +47,7 @@
 4. [CSRF 跨站请求伪造](https://docs.baiwumm.com/interview-handbook/browser/csrf)
 5. [输入 url 会发生什么](https://docs.baiwumm.com/interview-handbook/browser/url)
 6. [cookie 和 session 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-session)
+7. [cookie、sessionStorage 和 localStorage 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-storage)
 
 ## LeetCode 算法
 

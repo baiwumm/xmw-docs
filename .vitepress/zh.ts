@@ -78,6 +78,7 @@ export const zh = defineConfig({
         { text: 'CSRF 跨站请求伪造', link: '/interview-handbook/browser/csrf' },
         { text: '输入 url 会发生什么', link: '/interview-handbook/browser/url' },
         { text: 'cookie 和 session 的区别', link: '/interview-handbook/browser/cookie-and-session' },
+        { text: 'cookie、sessionStorage 和 localStorage 的区别', link: '/interview-handbook/browser/cookie-and-storage' },
       ],
       '/algorithm/': [
         {
