@@ -72,6 +72,7 @@ export const zh = defineConfig({
         { text: '归并排序', link: '/interview-handbook/algorithm/merge-sort' },
       ],
       '/interview-handbook/browser': [
+        { text: '浏览器进程模型', link: '/interview-handbook/browser/process-model' },
         { text: '如何解决跨域', link: '/interview-handbook/browser/cross-domain' },
         { text: '浏览器缓存', link: '/interview-handbook/browser/cache' },
         { text: 'XSS 跨站脚本攻击', link: '/interview-handbook/browser/xss' },
