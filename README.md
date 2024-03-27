@@ -18,6 +18,7 @@
 5. [垃圾回收机制](https://docs.baiwumm.com/interview-handbook/javascript/garbage-collection)
 6. [变量提升](https://docs.baiwumm.com/interview-handbook/javascript/variable-lifting)
 7. [this 指向机制](https://docs.baiwumm.com/interview-handbook/javascript/this)
+8. [事件循环(消息循环)](https://docs.baiwumm.com/interview-handbook/javascript/event-loop)
 
 ### Vue
 

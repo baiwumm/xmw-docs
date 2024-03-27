@@ -53,6 +53,7 @@ export const zh = defineConfig({
         { text: '垃圾回收机制', link: '/interview-handbook/javascript/garbage-collection' },
         { text: '变量提升', link: '/interview-handbook/javascript/variable-lifting' },
         { text: 'this 指向机制', link: '/interview-handbook/javascript/this' },
+        { text: '事件循环(消息循环)', link: '/interview-handbook/javascript/event-loop' },
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM 的理解', link: '/interview-handbook/vue/mvvm' },
