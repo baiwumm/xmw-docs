@@ -138,6 +138,7 @@ export const zh = defineConfig({
         { text: '第 28 题：cookie 和 token 都存放在 header 中，为什么不会劫持 token？', link: '/daily-question/28' },
         { text: '第 29 题：聊聊 Vue 的双向数据绑定，Model 如何改变 View，View 又是如何改变 Model 的', link: '/daily-question/29' },
         { text: '第 30 题：请把俩个数组 [A1, A2, B1, B2, C1, C2, D1, D2] 和 [A, B, C, D]，合并为 [A1, A2, A, B1, B2, B, C1, C2, C, D1, D2, D]', link: '/daily-question/30' },
+        { text: '第 31 题：改造下面的代码，使之输出 0 - 9，写出你能想到的所有解法。', link: '/daily-question/31' },
       ],
     },
 
