@@ -55,6 +55,7 @@ export const zh = defineConfig({
         { text: 'this 指向机制', link: '/interview-handbook/javascript/this' },
         { text: '事件循环(消息循环)', link: '/interview-handbook/javascript/event-loop' },
         { text: 'JS 中的计时器能做到精确计时吗？', link: '/interview-handbook/javascript/accurate-timing' },
+        { text: '如何理解 JS 的异步？', link: '/interview-handbook/javascript/async' },
       ],
       '/interview-handbook/vue': [
         { text: 'MVVM 的理解', link: '/interview-handbook/vue/mvvm' },

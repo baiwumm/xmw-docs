@@ -20,6 +20,7 @@
 7. [this 指向机制](https://docs.baiwumm.com/interview-handbook/javascript/this)
 8. [事件循环(消息循环)](https://docs.baiwumm.com/interview-handbook/javascript/event-loop)
 9. [JS 中的计时器能做到精确计时吗？](https://docs.baiwumm.com/interview-handbook/javascript/accurate-timing)
+10. [如何理解 JS 的异步？](https://docs.baiwumm.com/interview-handbook/javascript/async)
 
 ### Vue
 
