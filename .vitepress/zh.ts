@@ -145,6 +145,7 @@ export const zh = defineConfig({
         { text: '第 31 题：改造下面的代码，使之输出 0 - 9，写出你能想到的所有解法。', link: '/daily-question/31' },
         { text: '第 32 题：Virtual DOM 真的比操作原生 DOM 快吗？谈谈你的想法。', link: '/daily-question/32' },
         { text: '第 33 题：下面的代码打印什么内容，为什么？', link: '/daily-question/33' },
+        { text: '第 34 题：简单改造下面的代码，使之分别打印 10 和 20。', link: '/daily-question/34' },
       ],
     },
 
