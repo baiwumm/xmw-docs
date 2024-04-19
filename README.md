@@ -57,6 +57,7 @@
 9. [http1.0、http1.1、http2.0 协议的区别](https://docs.baiwumm.com/interview-handbook/browser/http)
 10. [为什么 HTTP1.1 不能实现多路复用](https://docs.baiwumm.com/interview-handbook/browser/http1-1-multiplexing)
 11. [简单讲解一下 HTTP2 的多路复用](https://docs.baiwumm.com/interview-handbook/browser/http2-multiplexing)
+12. [http1.1 是如何复用 tcp 连接的？](https://docs.baiwumm.com/interview-handbook/browser/http1-1-tcp)
 
 ## LeetCode 算法
 
