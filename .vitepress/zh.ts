@@ -87,6 +87,7 @@ export const zh = defineConfig({
         { text: 'cookie、sessionStorage 和 localStorage 的区别', link: '/interview-handbook/browser/cookie-and-storage' },
         { text: 'http1.0、http1.1、http2.0 协议的区别', link: '/interview-handbook/browser/http' },
         { text: '为什么 HTTP1.1 不能实现多路复用', link: '/interview-handbook/browser/http1-1-multiplexing' },
+        { text: '简单讲解一下 HTTP2 的多路复用', link: '/interview-handbook/browser/http2-multiplexing' },
       ],
       '/algorithm/': [
         {

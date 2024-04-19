@@ -55,7 +55,8 @@
 7. [cookie 和 session 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-session)
 8. [cookie、sessionStorage 和 localStorage 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-storage)
 9. [http1.0、http1.1、http2.0 协议的区别](https://docs.baiwumm.com/interview-handbook/browser/http)
-9. [为什么 HTTP1.1 不能实现多路复用](https://docs.baiwumm.com/interview-handbook/browser/http1-1-multiplexing)
+10. [为什么 HTTP1.1 不能实现多路复用](https://docs.baiwumm.com/interview-handbook/browser/http1-1-multiplexing)
+11. [简单讲解一下 HTTP2 的多路复用](https://docs.baiwumm.com/interview-handbook/browser/http2-multiplexing)
 
 ## LeetCode 算法
 
