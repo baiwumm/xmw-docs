@@ -89,6 +89,7 @@ export const zh = defineConfig({
         { text: '为什么 HTTP1.1 不能实现多路复用', link: '/interview-handbook/browser/http1-1-multiplexing' },
         { text: '简单讲解一下 HTTP2 的多路复用', link: '/interview-handbook/browser/http2-multiplexing' },
         { text: 'http1.1 是如何复用 tcp 连接的？', link: '/interview-handbook/browser/http1-1-tcp' },
+        { text: 'http1.0、http2.0、http3.0 之间的区别', link: '/interview-handbook/browser/http-difference' },
       ],
       '/algorithm/': [
         {
