@@ -54,6 +54,7 @@
 6. [输入 url 会发生什么](https://docs.baiwumm.com/interview-handbook/browser/url)
 7. [cookie 和 session 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-session)
 8. [cookie、sessionStorage 和 localStorage 的区别](https://docs.baiwumm.com/interview-handbook/browser/cookie-and-storage)
+9. [http1.0、http1.1、http2.0 协议的区别](https://docs.baiwumm.com/interview-handbook/browser/http)
 
 ## LeetCode 算法
 

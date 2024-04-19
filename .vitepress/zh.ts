@@ -85,6 +85,7 @@ export const zh = defineConfig({
         { text: '输入 url 会发生什么', link: '/interview-handbook/browser/url' },
         { text: 'cookie 和 session 的区别', link: '/interview-handbook/browser/cookie-and-session' },
         { text: 'cookie、sessionStorage 和 localStorage 的区别', link: '/interview-handbook/browser/cookie-and-storage' },
+        { text: 'http1.0、http1.1、http2.0 协议的区别', link: '/interview-handbook/browser/http' },
       ],
       '/algorithm/': [
         {
