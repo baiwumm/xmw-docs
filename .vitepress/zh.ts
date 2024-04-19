@@ -147,6 +147,7 @@ export const zh = defineConfig({
         { text: '第 33 题：下面的代码打印什么内容，为什么？', link: '/daily-question/33' },
         { text: '第 34 题：简单改造下面的代码，使之分别打印 10 和 20。', link: '/daily-question/34' },
         { text: '第 35 题：请求时浏览器缓存 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？', link: '/daily-question/35' },
+        { text: '第 36 题：使用迭代的方式实现 flatten 函数。', link: '/daily-question/36' },
       ],
     },
 

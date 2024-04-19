@@ -108,3 +108,4 @@
 33. 第 33 题：[下面的代码打印什么内容，为什么？](https://docs.baiwumm.com/daily-question/33)
 34. 第 34 题：[简单改造下面的代码，使之分别打印 10 和 20。](https://docs.baiwumm.com/daily-question/34)
 35. 第 35 题：[请求时浏览器缓存 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？](https://docs.baiwumm.com/daily-question/35)
+36. 第 36 题：[使用迭代的方式实现 flatten 函数。](https://docs.baiwumm.com/daily-question/36)
