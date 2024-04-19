@@ -42,6 +42,7 @@
 3. [插入排序](https://docs.baiwumm.com/interview-handbook/algorithm/insertion-sort)
 4. [归并排序](https://docs.baiwumm.com/interview-handbook/algorithm/merge-sort)
 5. [快速排序](https://docs.baiwumm.com/interview-handbook/algorithm/quick-sort)
+6. [二分搜索](https://docs.baiwumm.com/interview-handbook/algorithm/binaly-search)
 
 ### 浏览器篇
 

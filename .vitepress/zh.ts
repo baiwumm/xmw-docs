@@ -74,6 +74,7 @@ export const zh = defineConfig({
         { text: '插入排序', link: '/interview-handbook/algorithm/insertion-sort' },
         { text: '归并排序', link: '/interview-handbook/algorithm/merge-sort' },
         { text: '快速排序', link: '/interview-handbook/algorithm/quick-sort' },
+        { text: '二分搜索', link: '/interview-handbook/algorithm/binaly-search' },
       ],
       '/interview-handbook/browser': [
         { text: '浏览器进程模型', link: '/interview-handbook/browser/process-model' },
