@@ -51,14 +51,14 @@ export default defineConfig({
       })();`,
     ],
     // umami 统计
-    [
-      "script",
-      {
-        async: "",
-        "data-website-id": "eb0f8672-c066-464e-a710-5839b1c1536e",
-        src: "https://analysis.baiwumm.com/script.js",
-      },
-    ],
+    // [
+    //   "script",
+    //   {
+    //     async: "",
+    //     "data-website-id": "eb0f8672-c066-464e-a710-5839b1c1536e",
+    //     src: "https://analysis.baiwumm.com/script.js",
+    //   },
+    // ],
     // 图片预览资源
     [
       "link",
